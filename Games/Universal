@@ -8,9 +8,21 @@
                                                                                      
 @ Open Source;
 Give Credits if Possible :)
-Figure it out yourself but if you need help just hit me up :)
 
 ]]
+
+local Messages = { -- Humanized Texts, Add your own text, the more the better.
+        "this is that skidded script 💀",
+        "i know this script 💀",
+        "bro got mad and started lagging",
+        "LOL LAGGER SKID",
+        "😐 no one's laughing skid",
+        "bro doesn't know i have an anti lagger 💀",
+        "skidded script L"
+}
+
+local TextDelay = math.random(5,10) -- How long you want it before it does a message again
+                                    -- For Humanized Messages.
 
 
 --[[
@@ -92,7 +104,7 @@ end
 function fireLAG()
     if SayMessageRequest then
         for i = 1, _G.times do
-            local aids = "Qunity® 😎"
+            local aids = "Qunity® UNCOPYLOCKED 😎"
             local Unicode = " "
             aids = aids .. Unicode:rep(200 - #aids)
             SayMessageRequest:FireServer(aids, "All")
@@ -107,7 +119,7 @@ end
 
 function fireLAG2()
     if SayMessageRequest then
-            local aids = "Qunity® 😎"
+            local aids = "Qunity® UNCOPYLOCKED 😎"
             local Unicode = " "
             aids = aids .. Unicode:rep(200 - #aids)
             SayMessageRequest:FireServer(aids, "All")
